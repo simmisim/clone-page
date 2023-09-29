@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heroim{
+
+    background-image: url("images/hero_image.jpg");
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.heromsg{
+    height:40px;
+    width:90%; 
+    background-color: antiquewhite;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+.l{
+    padding-top:10px;
+    background-color: darkgrey;
+    height: 110vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.box{
+    padding-right: 5px;
+    padding-left: 5px;
+    height:52vh;
+    width: 23vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.con{
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-weight:bold;
+   
+}
+ a{
+ text-decoration: none;
+}
+.b1,.b2,.b3,.b4{
+    padding-top: 10px;
+}
+.bb1{
+    background-image: url("images/box1_image.jpg");
+    background-position: cover;
+}
+.bb2{
+    background-image: url("images/box2_image.jpg");
+    background-position: cover;
+}
+.bb3{
+    background-image: url("images/box3_image.jpg");
+    background-position: cover;
+}
+
+.bb4{
+    background-image: url("images/box4_image.jpg");
+    background-position: cover;
+}
+.bb5{
+    background-image: url("images/box5_image.jpg");
+    background-position: cover;
+}
+.bb6{
+    background-image: url("images/box6_image.jpg");
+    background-position: contain;
+}
+.bb7{
+    background-image: url("images/box7_image.jpg");
+    background-position: cover;
+}
+.bb8{
+    background-image: url("images/box8_image.jpg");
+    background-position: cover;
+}
+.bb1,.bb2,.bb3,.bb4,.bb5,.bb6,.bb7,.bb8{
+    height: 40vh;
+    width: 20vw;
+
+}
+aside{
+    margin-top:30px;
+    height:10vh;
+    text-align: center;
+}
+.s{
+    font-size:13px ;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+button{
+    height: 30px;
+    width: 230px;
+    border-radius: 5px;
+    background-color:  #ffe093;
+    font-weight: bold;
+    border-color: #f6c751;
+}
+.ss{
+    font-size: 10px;
+}

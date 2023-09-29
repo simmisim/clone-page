@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: border-box;
+
+}
+nav{background-color: black;
+    height: 60px;
+    background-color: rgb(17, 2, 2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bo{
+    border: 1px solid transparent;
+}
+.bo:hover{
+    border: 1px solid white;
+}
+/* box1 */
+.logo{
+    height: 60px;;
+    width:100px;
+    display: flex;
+    align-items: center;
+  
+}
+.im{
+    background-image:url("images/amazon_logo.png") ;
+    height: 50px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*box2  */
+.icon{
+    display: flex;
+    align-items: center;
+}
+.p{
+    font-size: 0.85rem;
+    margin-left:15px;
+    
+}
+.pp{
+    margin-left:4px ;
+
+}
+.search{
+    background-color: rgb(255, 217, 0);
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.s1{
+   
+    background-color: darkgray;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.s2{
+   
+    width: 100%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.si{
+    width: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.a{
+    font-size: 0.7em; 
+}
+.b{
+    font-size: 0.85rem;
+    font-weight:bold;
+}
+.ca{
+    display: flex;
+    align-items: end;
+}
+.ca p{
+    padding-top: 25px;
+}
+.back{
+    height: 8vh;
+    background-color:rgb(35, 47, 62,0.5);
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.abc{
+    height:40vh;
+    background-color:rgb(35, 47, 62);
+    color: #ddd;
+    display:flex;
+    justify-content: space-evenly;
+}
+.abc div{
+    margin-top: 40px;
+}
+.lolo{
+    border-top: 1px solid #ddd;
+    height: 10vh;
+    background-color:rgb(35, 47, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.loo{
+
+    background-image: url("images/amazon_logo.png");
+    height: 50px;
+    width: 80px;
+    background-size: cover;
+    
+}
+.final ul li{
+    display: inline-block;
+    color: #ddd;
+    margin-right: 9px;
+    margin-top: 15px;
+    
+}
+.final{
+    height:10vh;
+    background-color: #131A22;
+    text-align: center;
+
+}
+.f{
+    font: 12px;
+    color: #ddd;
+}
+
+
